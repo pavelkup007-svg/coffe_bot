@@ -1,0 +1,20 @@
+372042591, Denis, Денис, cups = 245, 2025-07-10, deposit = 165.00, price = 159.70, ['сдает'], ostatok = 5.30
+740586983, LevapisPavel, Павел, cups = 146, 2025-07-11, deposit = 115.00, price = 88.10, ['не сдает'], ostatok = 26.90
+156539, Rostindahouse, Ростислав, cups = 137, 2025-07-11, deposit = 102.00, price = 87.80, ['сдает'], ostatok = 14.20
+185937557, dimaleksin, Дима, cups = 229, 2025-07-10, deposit = 160.00, price = 139.75, ['не сдает'], ostatok = 20.25
+1290195530, Udzin256, Жилко Евгений, cups = 241, 2025-07-02, deposit = 180.00, price = 164.40, ['не сдает'], ostatok = 15.60
+1146295960, Vladimir, Черепок Владимир, cups = 353, 2025-07-02, deposit = 240.00, price = 234.45, ['сдает'], ostatok = 5.55
+369453877, Chechuha, Чечуха Евгений, cups = 267, 2025-07-11, deposit = 168.00, price = 165.90, ['сдает'], ostatok = 2.10
+295968689, Dolgovmaster, Артур, cups = 126, 2025-07-10, deposit = 95.00, price = 79.85, ['не сдает'], ostatok = 15.15
+1334364229, Табалевич, Олег_Табалевич, cups = 228, 2025-06-27, deposit = 151.00, price = 135.45, ['не сдает'], ostatok = 15.55
+766414054, Sergey, Сергей, cups = 110, 2025-07-11, deposit = 85.00, price = 72.55, ['сдает'], ostatok = 12.45
+396352273, Евгений Лисенков, Евгений Лисенков, cups = 50, 2025-07-07, deposit = 45.00, price = 32.60, ['сдает'], ostatok = 12.40
+648385089, Artem, Артем, cups = 45, 2025-07-02, deposit = 53.50, price = 28.45, ['не сдает'], ostatok = 25.05
+619460321, katya_lipinskaya, Екатерина, cups = 85, 2025-07-02, deposit = 60.00, price = 56.25, ['сдает'], ostatok = 3.75
+426563005, andrewpozhitok, Андрей Пожиток, cups = 266, 2025-06-24, deposit = 190.00, price = 159.65, ['не сдает'], ostatok = 30.35
+671331371, Bamberlock, Саша, cups = 158, 2025-07-11, deposit = 110.00, price = 94.50, ['не сдает'], ostatok = 15.50
+211600094, hurman_tim, Тимур, cups = 153, 2025-07-11, deposit = 110.00, price = 89.60, ['не сдает'], ostatok = 20.40
+5082968949, Nicola, Коля, cups = 23, 2025-05-05, deposit = 45.00, price = 14.50, ['не сдает'], ostatok = 30.50
+7087095562, DimaLevkovski, Дима Левковский, cups = 0, None, deposit = 0.00, price = 0.00, ['сдает в двойном размере'], ostatok = 0.00
+1038373027, Maks, Максим Морозов, cups = 0, None, deposit = 0.00, price = 0.00, ['сдает в двойном размере'], ostatok = 0.00
+6000517421, amialkovich, Амелькович Сергей, cups = 1, 2025-07-10, deposit = 0.00, price = 0.80, ['сдает в двойном размере'], ostatok = -0.80

@@ -1,0 +1,3 @@
+740586983, LevapisPavel, Павел, cups = 146, 2025-07-11, deposit = 115.00, price = 88.10, ['не сдает'], ostatok = 26.90
+211600094, hurman_tim, Тимур, cups = 152, 2025-07-10, deposit = 110.00, price = 88.80, ['не сдает'], ostatok = 21.20
+5082968949, Nicola, Коля, cups = 23, 2025-05-05, deposit = 45.00, price = 14.50, ['не сдает'], ostatok = 30.50
