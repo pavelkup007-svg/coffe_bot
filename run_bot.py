@@ -30,8 +30,8 @@ from telebot import apihelper
 # Настройка логирования
 logging.basicConfig(level=logging.INFO)
 
-TOKEN = '7272267982:AAEkQFtJQf7Ia5zls7WJBRgHIBssOLPTNOw'
-# TOKEN = '6648366599:AAF4ndqfgW4IsOnMzjFL9ZgocXWYeQIADAA'
+# TOKEN = '7272267982:AAEkQFtJQf7Ia5zls7WJBRgHIBssOLPTNOw'
+TOKEN = '6648366599:AAF4ndqfgW4IsOnMzjFL9ZgocXWYeQIADAA'
 
 # Стандартное создание бота (для локальной разработки)
 bot = telebot.TeleBot(TOKEN)
