@@ -417,8 +417,8 @@ if __name__ == '__main__':
             # Запускаем бота
             bot.polling(
                 none_stop=True,  # Не падать при ошибках
-                timeout=60,  # Таймаут
-                interval=5  # Интервал между запросами
+                timeout=20,  # Таймаут
+                interval=2  # Интервал между запросами
             )
         except KeyboardInterrupt:
             logging.info("Bot stopped by user")
