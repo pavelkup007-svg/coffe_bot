@@ -31,7 +31,7 @@ class User(models.Model):
 
     def save(self, *args, **kwargs):
         # Преобразование цены к Decimal
-        cup_price = Decimal('0.80')
+        cup_price = Decimal('1.00')
         # Расчет суммы к оплате
         self.amount_due = self.historical_amount_due + (self.cups_new * cup_price)
         super().save(*args, **kwargs)
