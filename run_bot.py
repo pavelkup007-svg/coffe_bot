@@ -7,7 +7,9 @@ import time
 import logging
 import datetime
 from pathlib import Path
-
+from flask import Flask, request
+import threading
+app = Flask(__name__)
 # Добавляем путь к проекту (на случай, если скрипт запущен не из корня)
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
@@ -30,8 +32,8 @@ from telebot import apihelper
 # Настройка логирования
 logging.basicConfig(level=logging.INFO)
 
-TOKEN = '7272267982:AAEkQFtJQf7Ia5zls7WJBRgHIBssOLPTNOw'
-# TOKEN = '6648366599:AAF4ndqfgW4IsOnMzjFL9ZgocXWYeQIADAA'
+# TOKEN = '7272267982:AAEkQFtJQf7Ia5zls7WJBRgHIBssOLPTNOw'
+TOKEN = '6648366599:AAF4ndqfgW4IsOnMzjFL9ZgocXWYeQIADAA'
 
 # Стандартное создание бота (для локальной разработки)
 bot = telebot.TeleBot(TOKEN)
@@ -380,6 +382,28 @@ def confirm_broadcast(message):
             logging.error(f"Broadcast error: {e}")
     else:
         bot.send_message(user_id, "Рассылка отменена.")
+@app.route('/')
+def health():
+    """Эндпоинт для пинга от UptimeRobot"""
+    return "Bot is alive", 200
+
+def run_web():
+    app.run(host='0.0.0.0', port=10000)
+
+def keep_alive():
+    """Резервный keep-alive"""
+    ADMIN_ID = 740586983
+    while True:
+        try:
+            # Отправляем сообщение только если бот не спал
+            bot.send_message(ADMIN_ID, "🟢 Бот работает", disable_notification=True)
+            time.sleep(600)
+        except:
+            time.sleep(60)
+
+# Запускаем оба механизма
+threading.Thread(target=run_web, daemon=True).start()
+threading.Thread(target=keep_alive, daemon=True).start()        
 
 
 # ============= КОНЕЦ ОБРАБОТЧИКОВ =============
